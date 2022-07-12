@@ -53,7 +53,7 @@ class HtmlBuilder:
         self.__root = HtmlElement(name=self.root_name)
     
     def __str__(self) -> str:
-        return str(self.__root)
+        return str(self.__root) 
 
 
 
